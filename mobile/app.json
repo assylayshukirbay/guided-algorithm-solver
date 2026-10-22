@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Guided Algorithm Solver",
+    "slug": "guided-algorithm-solver",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": { "supportsTablet": true },
+    "android": { "package": "edu.aitustudent.guidedalgorithmsolver" },
+    "extra": { "researchPrototype": true }
+  }
+}

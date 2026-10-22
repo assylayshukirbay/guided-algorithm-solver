@@ -1,0 +1,14 @@
+{
+  "name": "guided-algorithm-solver-server",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Learning API, scoring and SQLite persistence",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=22.13.0" },
+  "dependencies": { "express": "5.1.0" }
+}

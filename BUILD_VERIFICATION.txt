@@ -1,0 +1,25 @@
+Guided Algorithm Solver Version 2 — verification record
+
+Date: 2026-10-22
+Environment: Node.js v22.16.0, built-in Node.js SQLite (experimental)
+
+1. `node --test server/test/*.test.js`:
+   tests: 10 | passed: 10 | failed: 0
+2. TypeScript source parser (JS/JSX syntax) on:
+   - mobile/App.js
+   - mobile/src/foundation.js
+   - mobile/src/api.js
+   - mobile/src/config.js
+   - mobile/src/theme.js
+   - all server JS files
+   Result: zero syntax diagnostics.
+3. DOCX generated; layout rendered and visually reviewed (5 pages).
+
+NOT verified in the build environment:
+- Running `npm install` with online registry packages (network not available).
+- Expo Metro bundling and device UI interactions on the student's actual iPhone.
+- Express HTTP integration from phone to server.
+- Participant recruitment, survey responses, study pre/post scores, usability measures.
+
+Action for student: `npm install`, `npm test`, live iPhone run, capture genuine screenshots,
+record PASS/FAIL for 12 manual tests, then include real GitHub commit URL.
